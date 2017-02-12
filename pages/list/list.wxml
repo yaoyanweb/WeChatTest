@@ -1,0 +1,15 @@
+<view class="content">
+	<view class="list-layout" wx:for="{{list}}" wx:for-item='data' >
+		<view class="list-name">{{data.name}}</view>
+		<view class="list-detail">
+			<image class='list-img' src='{{data.cLogo}}' mode='scaleToFill' ></image>
+			<view class="list-detail">品牌:{{data.brand.name}}</view>
+			<view class="list-detail">详情:{{data.detail}}</view>
+			<view class="list-detail">
+				标签:
+				<span wx:for="{{data.labels}}" wx:for-item="item" >{{item.name}}</span>
+			</view>
+			<view class="list-detail">详情:{{data.detail}}</view>
+		</view>
+	</view>
+</view>

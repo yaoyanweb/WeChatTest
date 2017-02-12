@@ -1,0 +1,8 @@
+.content{padding: 10px;}
+input{
+    height: 34px;
+    border: 1px solid #eee;
+    padding: 5px 10px;
+    margin: 10px 0;
+    font-size: 14px;
+}

@@ -1,0 +1,8 @@
+<view class="content">
+	<view>设备:{{list.model}}</view>
+	<view>语言:{{list.language}}</view>
+	<view>设备像素比:{{list.pixelRatio}}</view>
+	<view>窗口宽度:{{list.windowWidth}}</view>
+	<view>窗口高度:{{list.windowHeight}}</view>
+	<view>设备版本号:{{list.version}}</view>
+</view>

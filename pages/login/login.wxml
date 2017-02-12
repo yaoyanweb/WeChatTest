@@ -1,0 +1,9 @@
+
+<view class="content" >
+    <input bindinput='user' placeholder="请输入qq号" class='form-control'/>
+    <input bindinput='pass' password='true' placeholder="请输入密码" class='form-control' />
+    <button bindtap='login' >登录</button>
+</view>
+<modal class="modal" hidden="{{modalHidden}}" no-cancel bindconfirm="modalChange2">
+  <view> 内容可以插入节点 </view>
+</modal>
